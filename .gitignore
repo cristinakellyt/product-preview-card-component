@@ -16,6 +16,6 @@
 .prettierignore
 style-guide.md
 design/
-README.md
+README-info.md
 node_modules/
 package-lock.json
