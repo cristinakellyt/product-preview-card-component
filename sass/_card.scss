@@ -1,0 +1,71 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 30rem));
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+
+  &__image {
+    background-image: url(../images/image-product-desktop.jpg);
+    width: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    overflow: hidden;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: $color-white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+
+    &--price {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      font-family: "Fraunces", sans-serif;
+      color: $color-primary-cyan;
+      font-size: 3rem;
+
+      & span {
+        font-family: "Montserrat", sans-serif;
+        color: $color-neutral-blue-grayish;
+        font-size: 1.4rem;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.2rem 0;
+  width: 100%;
+  background-color: $color-primary-cyan;
+  border: none;
+  border-radius: 1rem;
+  color: $color-white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: darken($color-primary-cyan, 10%);
+  }
+}
