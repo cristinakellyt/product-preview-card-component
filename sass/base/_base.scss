@@ -6,6 +6,12 @@
 
 html {
   font-size: 62.5%;
+
+  & a:link,
+  & a:visited {
+    text-decoration: none;
+    text-transform: none;
+  }
 }
 
 body {
