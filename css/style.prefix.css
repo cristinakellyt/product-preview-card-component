@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.4rem;
+  background-color: #f2ebe3; }
+
+main {
+  display: flex;
+  width: 60rem;
+  height: 45rem;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden; }
+
+.card__image {
+  background-image: url(../images/image-product-desktop.jpg);
+  width: 100%;
+  background-size: cover;
+  flex: 0 1 50%; }
+
+.card__content {
+  flex: 0 1 50%;
+  background-color: white; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1QsVUFBVTtFQUNWLHNCQUFzQixFQUFFOztBQUUxQjtFQUNFLGdCQUFnQixFQUFFOztBQUVwQjtFQUNFLGlCQUFpQjtFQUNqQix5QkFBeUIsRUFBRTs7QUFFN0I7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLGFBQWE7RUFDYixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLGdCQUFnQixFQUFFOztBQUVwQjtFQUNFLDBEQUEwRDtFQUMxRCxXQUFXO0VBQ1gsc0JBQXNCO0VBQ3RCLGFBQWEsRUFBRTs7QUFFakI7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCLEVBQUUiLCJmaWxlIjoic3R5bGUucHJlZml4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7IH1cblxuaHRtbCB7XG4gIGZvbnQtc2l6ZTogNjIuNSU7IH1cblxuYm9keSB7XG4gIGZvbnQtc2l6ZTogMS40cmVtO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjJlYmUzOyB9XG5cbm1haW4ge1xuICBkaXNwbGF5OiBmbGV4O1xuICB3aWR0aDogNjByZW07XG4gIGhlaWdodDogNDVyZW07XG4gIG1hcmdpbjogYXV0bztcbiAgYm9yZGVyLXJhZGl1czogMXJlbTtcbiAgb3ZlcmZsb3c6IGhpZGRlbjsgfVxuXG4uY2FyZF9faW1hZ2Uge1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vaW1hZ2VzL2ltYWdlLXByb2R1Y3QtZGVza3RvcC5qcGcpO1xuICB3aWR0aDogMTAwJTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgZmxleDogMCAxIDUwJTsgfVxuXG4uY2FyZF9fY29udGVudCB7XG4gIGZsZXg6IDAgMSA1MCU7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlOyB9XG4iXX0= */

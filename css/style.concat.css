@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.4rem;
+  background-color: #f2ebe3; }
+
+main {
+  display: flex;
+  width: 60rem;
+  height: 45rem;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden; }
+
+.card__image {
+  background-image: url(../images/image-product-desktop.jpg);
+  width: 100%;
+  background-size: cover;
+  flex: 0 1 50%; }
+
+.card__content {
+  flex: 0 1 50%;
+  background-color: white; }
